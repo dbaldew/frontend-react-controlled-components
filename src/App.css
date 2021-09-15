@@ -1,1 +1,29 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.fieldset {
+    padding: 10px;
+    margin: 10px;
+}
+
+.textinput {
+    margin: 10px;
+
+}
+#comments {
+    margin: 10px;
+}
+
+#signupbtn {
+    margin: 10px;
+}
+#sendbtn {
+    margin: 10px;
+}
