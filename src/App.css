@@ -8,6 +8,12 @@ body {
     justify-content: center;
     align-content: center;
 }
+
+.form {
+    padding: 0px;
+    margin: 0px;
+}
+
 .fieldset {
     padding: 10px;
     margin: 10px;
