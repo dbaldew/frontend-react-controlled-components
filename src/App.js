@@ -19,12 +19,12 @@ function App() {
             <div>
                 <form id="form" onSubmit={handleClick}>
                     <div>
-                        <fieldset className="fieldset">
-                            <legend>Gegevens</legend>
+                        <fieldset className="fieldSet">
+                            <legend className="legend">Gegevens</legend>
                             <div>
-                                <label htmlFor="name">Naam:
+                                <label className="label" htmlFor="name" >Naam:
                                     <input
-                                        className="textinput"
+                                        className="input"
                                         type="text"
                                         name="name"
                                         id="name"
@@ -34,9 +34,9 @@ function App() {
                                 </label>
                             </div>
                             <div>
-                                <label htmlFor="age">Leeftijd
+                                <label className="label" htmlFor="age">Leeftijd
                                     <input
-                                        className="textinput"
+                                        className="input"
                                         type="text"
                                         name="age"
                                         id="age"
@@ -46,16 +46,16 @@ function App() {
                             </div>
                         </fieldset>
                     </div>
-                    <fieldset className="fieldset">
-                        <legend>Jouw review</legend>
+                    <fieldset className="fieldSet">
+                        <legend className="legend">Jouw review</legend>
                         <div>
                             <p>Opmerkingen</p>
                             <textarea
                                 name="comments"
                                 id="comments"
                                 placeholder="Wat vond je van het recept?"
-                                cols="30"
-                                rows="10"
+                                cols="50"
+                                rows="20"
                                 value={comment}
                                 onChange={(e) => setComment(e.target.value)}
                             />
@@ -67,7 +67,7 @@ function App() {
                             value={signUp}
                             onClick={(e) => toggleSignup(!signUp)}
                         />
-                        <label htmlFor="signup">Ik schrijf me in voor de
+                        <label htmlFor="signup" id = "labelSignup" >Ik schrijf me in voor de
                             nieuwsbrief</label>
                         <div>
                             <input
