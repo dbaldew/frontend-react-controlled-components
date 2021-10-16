@@ -63,7 +63,7 @@ function App() {
                         <input
                             type="checkbox"
                             name="signup"
-                            id="signupbtn"
+                            id="signupBtn"
                             value={signUp}
                             onClick={(e) => toggleSignup(!signUp)}
                         />
@@ -73,7 +73,7 @@ function App() {
                             <input
                                 type="submit"
                                 name="verzenden"
-                                id="sendbtn"
+                                id="sendBtn"
                             />
                         </div>
                     </fieldset>
